@@ -12,9 +12,7 @@ class Notes {
 
 		//keep track of number of moves
 		int noOfMoves = 0;
-
 		return dfsHelper(arr, curRow, curCol, noOfMoves);
-		
 	}
 
 	public static int dfsHelper(String[][] arr, int curRow, int curCol, int noOfMoves) {
